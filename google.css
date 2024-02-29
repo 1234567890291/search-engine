@@ -1,0 +1,119 @@
+* {
+	margin: auto 0;
+	padding: auto 0;
+}
+body {
+	background: linear-gradient(45deg, white, #ffffff, #ffffff, #ffffff);
+	min-width: 100%;
+	min-height: 100vh;
+	/*
+	display: flex;
+	justify-content: center;
+	align-items: center;*/
+	padding: 0;
+}
+#lga{
+  background-color:blue;
+}
+div#main {
+	padding: 0 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+div#main div {
+	background: linear-gradient(45deg, white, white, white, white);
+	width: 80%;
+}
+div#main .v9i61e {
+	width: 100%;
+}
+#lga {
+	font-size: 64px;
+	word-break: break-all;
+	max-width: 100%;
+}
+.gsfi {
+	width: clamp(100px, 60%, 800px);
+	transition: 500ms;	
+	transform: translateY(100px);
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.lst {
+	width: clamp(100px, 60%, 800px);
+	transition: 500ms;	
+	transform: translateY(100px);
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.lst:hover{
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+#ffffff a{
+	color: #ffffff;
+}
+.sblc {
+	display: none;
+}
+@keyframes move {
+	0% {
+		transform: translateX(70%);
+	}
+	50% {
+		transform: translateX(-70%);
+	}
+	60% {
+		transform: translateX(30%);
+	}
+	70% {
+		transform: translateY(30%);
+	}
+	80% {
+		transform: translateY(80%);
+	}
+	90% {
+		transform: translateX(-30%);
+	}
+}
+#gb {
+	display: none;
+}
+form {
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+input[type=submit] {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: ##ffffff;
+}
